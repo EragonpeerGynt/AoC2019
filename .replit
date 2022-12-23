@@ -1,0 +1,10 @@
+language="elixir"
+run = "sh run.sh"
+
+[env]
+LC_ALL = "en_US.UTF-8"
+HEX_HOME = "/home/runner/${REPL_SLUG}/.hex"
+MIX_HOME = "/home/runner/${REPL_SLUG}/.mix"
+
+[nix]
+channel = "stable-21_11"

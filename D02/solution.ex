@@ -78,8 +78,8 @@ defmodule Main do
 		|> Map.new(fn {op,i} -> {i,op} end)
   		|> VM.create_vm
 
-		#Solution.part1(input)
-  		#|> IO.puts
+		Solution.part1(input)
+  		|> IO.puts
 		Solution.part2(input) 
   		|> IO.puts
 	end
